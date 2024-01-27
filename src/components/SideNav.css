@@ -1,0 +1,25 @@
+/* SideNav.css */
+
+.sidenav {
+  height: 90%;
+  width: 20rem;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  padding-top: 20px;
+  border-style: 1px solid black;
+}
+
+.sidenav a {
+  padding: 14px 1px 1.5rem 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+  border-right: 2rem;
+}
+
+.sidenav a:hover {
+  border-radius: 2rem;
+  background-color: #c4ddff;
+}
